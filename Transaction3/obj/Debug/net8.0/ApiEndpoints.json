@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Transaction3.Controllers.AdminController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admin",
+        "Type": "Transaction3.Models.Admin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Transaction3.Controllers.AdminController",
+    "Method": "ValidateUser",
+    "RelativePath": "api/admin/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Transaction3.Models.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
